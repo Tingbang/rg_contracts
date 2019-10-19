@@ -1,0 +1,85 @@
+{% extends "base_site/base.html" %}
+{% load static%}
+{% block content%}
+<!--NOTE TRY USE CONTAINER > ROW, CONTAINER ROW for STACKING-->
+<!--End Carousel-->
+<div class="container p-0">
+    <div class="row justify-content-center">
+        <h3 class="text-center fancy-heading">Services</h3>
+    </div>
+    <!--KITCHENS-->
+
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-xs-4">
+            <h3 id="underline" class="fancy-heading">Kitchens</h3>
+
+            <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo conidatat non proident,
+                    sunt in culpa quiidatat non proident, sunt in culpa quiidatat non proident, sunt in culpa quiidatat non proident,
+                    sunt in culpa quiidatat non proident, sunt in culpa quiidatat non proident, sunt in culpa quiidatat non proident,
+                    sunt in culpa quiidatat non proident, sunt in culpa quisequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+            </p>
+            <br><br>
+        </div><!--Col-->
+        <div class="col-lg-6 col-md-6 col-xs-4 mt-4">
+                <div class="img-template mt-3">
+                    <img style="height:300px;" src="{%static 'base_site/img/kitchen.jpg' %}" alt="kitchen">
+                </div>
+        </div>
+
+
+    </div><!--Row-->
+
+    <!--Bathrooms-->
+
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-xs-4">
+            <h3 id="underline" class="fancy-heading">Bathrooms</h3>
+
+            <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo conidatat non proident,
+                    sunt in culpa quiidatat non proident, sunt in culpa quiidatat non proident, sunt in culpa quiidatat non proident,
+                    sunt in culpa quiidatat non proident, sunt in culpa quiidatat non proident, sunt in culpa quiidatat non proident,
+                    sunt in culpa quiidatat non proident, sunt in culpa quisequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+            </p>
+            <br><br>
+        </div><!--Col-->
+        <div class="col-lg-6 col-md-6 col-xs-4 mt-4">
+                <div class="img-template">
+                    <img style="height:300px;" src="{%static 'base_site/img/bathroom.jpg' %}" alt="bathrooms">
+                </div>
+            </div>
+    </div><!--Row-->
+
+    <!--Fences-->
+
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-xs-4">
+            <h3 id="underline" class="fancy-heading">Fences</h3>
+
+            <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo conidatat non proident,
+                    sunt in culpa quiidatat non proident, sunt in culpa quiidatat non proident, sunt in culpa quiidatat non proident,
+                    sunt in culpa quiidatat non proident, sunt in culpa quiidatat non proident, sunt in culpa quiidatat non proident,
+                    sunt in culpa quiidatat non proident, sunt in culpa quisequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+            </p>
+            <br><br>
+        </div><!--Col-->
+
+        <div class="col-lg-6 col-md-6 col-xs-4 mt-4">
+                <div class="img-template">
+                    <img style="height:300px;" src="{%static 'base_site/img/fence.jpg' %}" alt="fence">
+                </div>
+            </div>
+
+
+    </div><!--Row-->
+</div><!--Container-->
+
+{% endblock content%}

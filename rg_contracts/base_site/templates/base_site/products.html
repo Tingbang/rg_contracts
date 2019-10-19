@@ -1,0 +1,93 @@
+{% extends "base_site/base.html" %}
+{% block content%}
+
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-xs-12 col-md-12 col-lg-12">
+            <div class="Tab">
+                <ul class="nav nav-tabs list-inline justify-content-center mr-0 mt-4">
+                    <li class="active menu-tab">
+                        <a class="p-2"href="#door" role="tab" data-toggle="tab">Doors</a>
+                    </li>
+                    <li class="menu-tab">
+                        <a class ="p-2"href="#kitchen" data-toggle="tab">Kitchens</a>
+                    </li>
+                    <li class="menu-tab">
+                        <a class ="p-2" href="#bathroom" data-toggle="tab">Bathrooms</a>
+                    </li>
+                    <li class="menu-tab">
+                        <a class ="p-2" href="#plumbing" data-toggle="tab">Plumbing</a>
+                    </li>
+                    <li class="menu-tab">
+                        <a class ="p-2" href="#landscaping" data-toggle="tab">Landscaping</a>
+                    </li>
+                    <li class="menu-tab">
+                        <a class ="p-2" href="#fences" data-toggle="tab">Fences</a>
+                    </li>
+                </ul>
+                <!--End of Menu Tabs-->
+
+                <!--Main Content-->
+                <div class="tab-content p-0">
+                    <div class="tab-pane active menu" id="door">
+                        {% load static %}
+                            <div class="row">
+                                <div class="col-xs-4 col-md-4 col-lg-4">
+                                    <img src="{%static 'base_site/img/doors/door1.jpg' %}" alt="..." class="img-thumbnail rounded img-responsive">
+                                    <small class="text-center">Description: asdjasduhasiduhauisd LROSDNASdnasdnaisdasdds</small>
+                                    <small class="text-center">Price: £99</small>
+                                </div>
+                                <div class="col-xs-4 col-md-4 col-lg-4">
+                                    <img src="{%static 'base_site/img/doors/door1.jpg' %}" alt="..." class="img-thumbnail rounded img-responsive">
+                                    <small class="text-center">Description: asdjasduhasiduhauisd LROSDNASdnasdnaisdasdds</small>
+                                    <small class="text-center">Price: £99</small>
+                                </div>
+                                <div class="col-xs-4 col-md-4 col-lg-4">
+                                    <img src="{%static 'base_site/img/doors/door1.jpg' %}" alt="..." class="img-thumbnail rounded img-responsive">
+                                    <small class="text-center">Description: asdjasduhasiduhauisd LROSDNASdnasdnaisdasdds</small>
+                                    <small class="text-center">Price: £99</small>
+                                </div>
+                                <div class="col-xs-4 col-md-4 col-lg-4">
+                                    <img src="{%static 'base_site/img/doors/door1.jpg' %}" alt="..." class="img-thumbnail rounded img-responsive">
+                                    <small class="text-center">Description: asdjasduhasiduhauisd LROSDNASdnasdnaisdasdds</small>
+                                    <small class="text-center">Price: £99</small>
+                                </div>
+                            </div><!--End of Row-->
+                    </div> <!--End of Door Pane-->
+
+                    <!--Bathroom Pane-->
+                    <div class="tab-pane menu" id="bathroom">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-xs-4 col-md-4 col-lg-4">
+                                    <img src="{%static 'base_site/img/doors/door2.jpg' %}" alt="..." class="img-thumbnail rounded img-responsive">
+                                    <small class="text-center">Description: asdjasduhasiduhauisd LROSDNASdnasdnaisdasdds</small>
+                                    <small class="text-center">Price: £99</small>
+                                </div>
+                                <div class="col-xs-4 col-md-4 col-lg-4">
+                                    <img src="{%static 'base_site/img/doors/door1.jpg' %}" alt="..." class="img-thumbnail rounded img-responsive">
+                                    <small class="text-center">Description: asdjasduhasiduhauisd LROSDNASdnasdnaisdasdds</small>
+                                    <small class="text-center">Price: £99</small>
+                                </div>
+                                <div class="col-xs-4 col-md-4 col-lg-4">
+                                    <img src="{%static 'base_site/img/doors/door1.jpg' %}" alt="..." class="img-thumbnail rounded img-responsive">
+                                    <small class="text-center">Description: asdjasduhasiduhauisd LROSDNASdnasdnaisdasdds</small>
+                                    <small class="text-center">Price: £99</small>
+                                </div>
+                                <div class="col-xs-4 col-md-4 col-lg-4">
+                                    <img src="{%static 'base_site/img/doors/door1.jpg' %}" alt="..." class="img-thumbnail rounded img-responsive">
+                                    <small class="text-center">Description: asdjasduhasiduhauisd LROSDNASdnasdnaisdasdds</small>
+                                    <small class="text-center">Price: £99</small>
+                                </div>
+                            </div><!--End of Bathroom Row-->
+                        </div><!--End of Menu Container-->
+                    </div> <!--End of Door Pane-->
+                </div><!--End of Tab Content-->
+            </div> <!--Tab Menu-->
+        </div><!--12 Col-->
+    </div><!--Initial Row-->
+</div> <!--End of Container-->
+<!--Jquery/bootstrapjs-->
+
+{% endblock content%}
